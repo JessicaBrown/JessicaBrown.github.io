@@ -34,12 +34,12 @@ body {
 
 #name {
   font-family: 'Sura', serif;
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
 
 #subtitle {
   font-style: italic;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 #fade-container {
@@ -49,10 +49,17 @@ body {
     -o-animation-delay: 1s;
     animation-delay: 1s;
 }
+#res{
+font-size: 1.75em;
+}
+
+#projects{
+    font-size: 2.5;
+}
 
 #links i {
   margin: auto 50px;
-  font-size: 2em;
+  font-size: 2.50em;
   color: #888;
 }
 a i:hover {
