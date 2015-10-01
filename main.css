@@ -1,7 +1,8 @@
 * {
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
-  color: #444;
+  color: WHITE;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 
 
@@ -9,6 +10,11 @@ body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  background: url("http://i1238.photobucket.com/albums/ff482/Jessica79brown/resumeBackground.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #main {
