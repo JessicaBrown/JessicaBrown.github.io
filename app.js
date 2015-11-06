@@ -1,5 +1,5 @@
 angular
-  .module('mrd', [])
+  .module('resume', ['ngroute'])
 
   .directive('scrollBox', function(){
     return {
