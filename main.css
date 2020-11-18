@@ -25,7 +25,9 @@ body {
 }
 
 #main div {
-margin: 15px auto;
+  margin: 15px auto;
+  width: 605px;
+  max-width: 100%;
 }
 
 #title div {
