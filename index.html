@@ -1,112 +1,252 @@
 <!DOCTYPE html>
 <html ng-app="resume">
-  <head>
-    <title>Jessica Brown | Software Developer</title>
-     <link rel="shortcut icon" href="favicon.jpg" type="image/jpg" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sura" >
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic" >
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" >
-    <link rel="stylesheet" href="main.css" >
-  </head>
-  <body>
- 
-    <div id="hero">
-      <div id="title">
-        <div id="name">Jessica Brown</div>
-        <div id="subtitle">Software Developer</div>
-        <br>
-      </div>
-      <div id="fade-container" class="animated fadeIn">
-        <div id="links">
-          <a target="_blank" href="http://www.github.com/JessicaBrown"><i class="fa fa-github-alt"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/pub/jessica-brown/a5/27a/66a"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" href="https://twitter.com/JessLoveToCode"><i class="fa fa-twitter"></i></a>
-        </div>
-        <br>
-        <a id="res" href="MyResume.pdf">RESUME</a>
-        <br>
-        <br>
-      </div>
-    </div>
+	<head>
+		<title>Jessica Brown | Software Developer</title>
+		<link rel="shortcut icon" href="favicon.jpg" type="image/jpg" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="http://fonts.googleapis.com/css?family=Sura"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"
+		/>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div id="hero">
+			<div id="title">
+				<div id="name">Jessica Brown</div>
+				<div id="subtitle">Software Developer</div>
+				<br />
+			</div>
+			<div id="fade-container" class="animated fadeIn">
+				<div id="links">
+					<a target="_blank" href="http://www.github.com/JessicaBrown"
+						><i class="fa fa-github-alt"></i
+					></a>
+					<a
+						target="_blank"
+						href="https://www.linkedin.com/pub/jessica-brown/a5/27a/66a"
+						><i class="fa fa-linkedin"></i
+					></a>
+					<a target="_blank" href="https://twitter.com/JessLoveToCode"
+						><i class="fa fa-twitter"></i
+					></a>
+				</div>
+				<br />
+				<a id="res" href="MyResume.pdf">RESUME</a>
+				<br />
+				<br />
+			</div>
+		</div>
 
-    <div class="projects-wrapper">
-      <div class="row">
-       <div class="column">
-        <div class="loves-projects">
-        <div class="project-title">
-          Love's Projects:
-        </div>
-          <br>
-          <div id="fade-dark-container" class="animated fadeIn dark-background"> 
-          <div class="code-name">
-          <a target="_blank" href="https://github.com/JessicaBrown/merchTouch">Mobile To Go Code</a>
-          </div>
-          <p class="p-style">This app was to showcase Love's electronics. It was a digital catalog that I created with the mean stack for the customer-facing instore touchscreens. </p>
-          <div class="code-name">
-          <a target="_blank" href="http://loves-portrait-ts.herokuapp.com/">My Love Rewards App</a>
-          </div>
-          <p class="p-style"> In-store touchscreen app that allowed drivers to sign up for rewards. Nodejs backend with vanilla js and jquery front end.</p>
-          <div class="code-name">
-          <a target="_blank" href="http://lovesdigitalab.com/routeplanning/routemap.php">Love's Route Planning</a>
-          <p class="p-style">This app gave drivers the ability to plan a route and have it emailed to their personal email. It showcased all loves locations and parking. It utilized Google Maps API for the data and the location guide I created for the Love's locations.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="http://lovesdigitalab.com/weather/interior/port/weather.html">Love's Weather</a>
-          <p class="p-style">This app gave drivers the ability to see the weather at current location and to search for weather at the locations they were heading too. This app utlized Google Maps API and OpenWeather API.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="http://lovesdigitalab.com/locationGuide/locationGuide.php">Love's Location Guide</a>
-          <p class="p-style">This app utlized Google Maps API and a MySQL database I created to hold all amenities of each location.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="http://lovesdigitalab.com/giveaway/port/dec2018/christmasGiveaway.php">Christmas Giveaway</a>
-          <p class="p-style">This app counted down the days until christmas and allowed user to enter a give away with Love's merchandise. I created a MySQL database and used javascript for functionality.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="http://loves.com">Loves.com Refresh</a>
-          <p class="p-style">This was a complete refresh of loves.com UI. I worked in sprints with other loves.com developers and was the project owner and developer for the marketing team.</p> 
-          </div>
-          <span style="font-size:13px; padding-bottom:1rem;">*Touchscreen apps were intended for 1080x1920 or 1920x1080 screens.</span>
-          </div>
-        </div>
-        </div>
-        <div class="column">
-          <div class="tbs-projects">   
-            </div>
-          <div class="tbsProjects">       
-          <div class="project-title">TBS Projects:</div>
-          <br>
-          <div id="fade-dark-container" class="animated fadeIn dark-background"> 
-          <div class="code-name">
-          <a target="_blank" href="https://www.tbscapitalfunding.com/">TBS Capital Funding</a>
-          <p class="p-style">This website is used for creating leads and providing information for the capital funding group. It was created with React and AWS Amplify and connects to SalesForce.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="https://www.tbsconstructionfunding.com/">TBS Construction Funding</a>
-          <p class="p-style">This website is used for creating leads and providing information for the construction funding group. It was created with MDB and is a static site utilzing AWS S3 and connects to SalesForce.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="https://web.archive.org/web/20200814101255/https://sandwiches4semis.com/">Sandwiches4Semis</a>
-          <p class="p-style">This website was created from a marketing initiative to help drivers when Covid-19 first hit. The CEO was featured on Good Moring America and I created the website in a week for PR.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="https://tbsfactoringreviews.com/">TBS Factoring Reviews</a>
-          <p class="p-style">This website was created to showcase TBS reveiws and services. It was created with React and utilizes AWS Amplify.</p>
-          </div>
-          <div class="code-name">
-          <a target="_blank" href="https://foxholelogistics.com/">Foxhole Logistics</a>
-          <p class="p-style">This website was created to showcase another sector of TBS buisness. It was crated with MDB and is a static site utilzing AWS S3.</p>
-          </div>
-          </div>
-        </div>
-      </div>
-   </div>
- </div>
- 
+		<div class="projects-wrapper">
+			<div class="row">
+				<div class="column">
+					<div class="loves-projects">
+						<div class="project-title">Love's Projects:</div>
+						<br />
+						<div
+							id="fade-dark-container"
+							class="animated fadeIn dark-background"
+						>
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="https://github.com/JessicaBrown/merchTouch"
+									>Mobile To Go Code</a
+								>
+							</div>
+							<p class="p-style">
+								This app was to showcase Love's electronics. It was a digital
+								catalog that I created with the mean stack for the
+								customer-facing instore touchscreens.
+							</p>
+							<br />
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="http://loves-portrait-ts.herokuapp.com/"
+									>My Love Rewards App</a
+								>
+							</div>
+							<p class="p-style">
+								In-store touchscreen app that allowed drivers to sign up for
+								rewards. Nodejs backend with vanilla js and jquery front end.
+							</p>
+							<br />
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="http://lovesdigitalab.com/routeplanning/routemap.php"
+									>Love's Route Planning</a
+								>
+								<p class="p-style">
+									This app gave drivers the ability to plan a route and have it
+									emailed to their personal email. It showcased all loves
+									locations and parking. It utilized Google Maps API for the
+									data and the location guide I created for the Love's
+									locations.
+								</p>
+							</div>
+							<br />
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="http://lovesdigitalab.com/weather/interior/port/weather.html"
+									>Love's Weather</a
+								>
+								<p class="p-style">
+									This app gave drivers the ability to see the weather at
+									current location and to search for weather at the locations
+									they were heading too. This app utlized Google Maps API and
+									OpenWeather API.
+								</p>
+							</div>
+							<br />
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="http://lovesdigitalab.com/locationGuide/locationGuide.php"
+									>Love's Location Guide</a
+								>
+								<p class="p-style">
+									This app utlized Google Maps API and a MySQL database I
+									created to hold all amenities of each location.
+								</p>
+							</div>
+							<br />
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="http://lovesdigitalab.com/giveaway/port/dec2018/christmasGiveaway.php"
+									>Christmas Giveaway</a
+								>
+								<p class="p-style">
+									This app counted down the days until christmas and allowed
+									user to enter a give away with Love's merchandise. I created a
+									MySQL database and used javascript for functionality.
+								</p>
+							</div>
+							<br />
+							<div class="code-name">
+								<a target="_blank" href="http://loves.com">Loves.com Refresh</a>
+								<p class="p-style">
+									This was a complete refresh of loves.com UI. I worked in
+									sprints with other loves.com developers and was the project
+									owner and developer for the marketing team.
+								</p>
+							</div>
+							<br />
+							<span style="font-size: 13px; padding-bottom: 1rem"
+								>*Touchscreen apps were intended for 1080x1920 or 1920x1080
+								screens.</span
+							>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="petrafintech-projects">
+						<div class="project-title">PetraFinTech Projects:</div>
+						<br />
+						<div
+							id="fade-dark-container"
+							class="animated fadeIn dark-background"
+						>
+							<div class="code-name">
+								<a target="_blank" href="https://web-portal.tbsokc.com/"
+									>GetPaid Web Application</a
+								>
+								<p class="p-style">
+									This software was created to assist factoring in the field and
+									the office. The front end was created with ReactJS and hosted
+									with AWS. This app was created in an agile enviroment and
+									utilized Jira for the scrum framework.
+								</p>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="tbs-projects">
+						<div class="project-title">TBS Projects:</div>
+						<br />
+						<div
+							id="fade-dark-container"
+							class="animated fadeIn dark-background"
+						>
+							<div class="code-name">
+								<a target="_blank" href="https://www.tbscapitalfunding.com/"
+									>TBS Capital Funding</a
+								>
+								<p class="p-style">
+									This website is used for creating leads and providing
+									information for the capital funding group. It was created with
+									React and AWS Amplify and connects to SalesForce.
+								</p>
+							</div>
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="https://www.tbsconstructionfunding.com/"
+									>TBS Construction Funding</a
+								>
+								<p class="p-style">
+									This website is used for creating leads and providing
+									information for the construction funding group. It was created
+									with MDB and is a static site utilzing AWS S3 and connects to
+									SalesForce.
+								</p>
+							</div>
+							<div class="code-name">
+								<a
+									target="_blank"
+									href="https://web.archive.org/web/20200814101255/https://sandwiches4semis.com/"
+									>Sandwiches4Semis</a
+								>
+								<p class="p-style">
+									This website was created from a marketing initiative to help
+									drivers when Covid-19 first hit. The CEO was featured on Good
+									Moring America and I created the website in a week for PR.
+								</p>
+							</div>
+							<div class="code-name">
+								<a target="_blank" href="https://tbsfactoringreviews.com/"
+									>TBS Factoring Reviews</a
+								>
+								<p class="p-style">
+									This website was created to showcase TBS reveiws and services.
+									It was created with React and utilizes AWS Amplify.
+								</p>
+							</div>
+							<div class="code-name">
+								<a target="_blank" href="https://foxholelogistics.com/"
+									>Foxhole Logistics</a
+								>
+								<p class="p-style">
+									This website was created to showcase another sector of TBS
+									buisness. It was crated with MDB and is a static site utilzing
+									AWS S3.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js" ></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 
-    <script src="app.js" ></script>
-  </body>
+		<script src="app.js"></script>
+	</body>
 </html>
