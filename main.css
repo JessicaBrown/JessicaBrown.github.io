@@ -1,99 +1,98 @@
 * {
-    font-family: 'Noto Sans', sans-serif;
-    color: #ffffff;
-    text-shadow: 0px 0px 2px #000, -1px -2px #000, 2px 0px #000;
+	font-family: "Noto Sans", sans-serif;
+	color: #ffffff;
+	text-shadow: 0px 0px 2px #000, -1px -2px #000, 2px 0px #000;
 }
-
 
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  background: url("https://jesscodeimages.s3.us-east-2.amazonaws.com/developerBG.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background: url("https://jesscodeimages.s3.us-east-2.amazonaws.com/developerBG.png")
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
-.projects-wrapper{
-  margin: 2rem;
+.projects-wrapper {
+	margin: 2rem;
 }
 .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
 }
 .column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
 }
-.lovesProjects{
-  height: 100vh;
-  padding: 0 2rem;
+.loves-projects {
+	height: 100vh;
+	padding: 0 2rem;
 }
-.tbsProjects{
-  height: 100vh;
-  padding: 0 2rem;
+.tbs-projects {
+	height: 100vh;
+	padding: 0 2rem;
 }
 #hero div {
-    margin: 15px auto;
-    width: 100%;
-    max-width: 100%;
-    text-align: center
+	margin: 15px auto;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
 }
 
 #name {
-  font-family: 'Sura', serif;
-  font-size: 4.5em;
+	font-family: "Sura", serif;
+	font-size: 4.5em;
 }
 
 #subtitle {
-  font-style: italic;
-  font-size: 2.5em;
+	font-style: italic;
+	font-size: 2.5em;
 }
 
 #fade-container {
-    -webkit-animation-delay: .5s;
-    -moz-animation-delay: .5s;
-    -ms-animation-delay: .5s;
-    -o-animation-delay: .5s;
-    animation-delay: .5s;
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
 }
-#res{
-font-size: 1.50em;
+#res {
+	font-size: 1.5em;
 }
 
 #links i {
-  margin: auto 50px;
-  font-size: 2.50em;
+	margin: auto 50px;
+	font-size: 2.5em;
 }
 a i:hover {
-  color: #000;
+	color: #000;
 }
-.project-title{
-      font-style: italic;
-    font-size: 1.50em;
-    text-align: center;
+.project-title {
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
 }
-.code-name{
-  text-align: center;
+.code-name {
+	text-align: center;
 }
-.p-style{
-  margin-top: .5rem; 
-  font-size: 15px;
+.p-style {
+	margin-top: 0.5rem;
+	font-size: 15px;
 }
-.dark-background{
-   background: rgba(0, 0, 0, 0.5);
-   padding:1.5rem;
+.dark-background {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 1.5rem;
 }
 #fade-dark-container {
-    -webkit-animation-delay: 1.5s;
-    -moz-animation-delay: 1.5s;
-    -ms-animation-delay: 1.5s;
-    -o-animation-delay: 1.5s;
-    animation-delay: 1.5s;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-ms-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
-
