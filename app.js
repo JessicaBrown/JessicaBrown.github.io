@@ -21,7 +21,7 @@ angular
             'left': left + '%'
           });
           y = window.scrollY;
-          console.log(y);
+          // console.log(y);
         });
       }
     };
