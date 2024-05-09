@@ -87,7 +87,7 @@ a i:hover {
 }
 .dark-background {
 	background: rgba(0, 0, 0, 0.5);
-	padding: 1.5rem;
+	padding: 1.6rem;
 }
 #fade-dark-container {
 	-webkit-animation-delay: 1.5s;
@@ -96,7 +96,15 @@ a i:hover {
 	-o-animation-delay: 1.5s;
 	animation-delay: 1.5s;
 }
+.loves  {
+	height: 100vh;
+    display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
 .note {
+	margin-top: auto;
 	font-size: 13px;
 	padding-bottom: 7px;
 }
+.tbs{margin-bottom: 20px}
